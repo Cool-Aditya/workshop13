@@ -1,0 +1,24 @@
+
+POST http://localhost:5000/post
+Content-Type: application/json
+
+{
+    "username": "Pushpender",
+    "title": "Rana"
+}
+
+###
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username": "Bhakti",
+    "title": "Dua"
+}
+
+###
+GET http://localhost:3000/post
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQmhha3RpIiwiaWF0IjoxNjE5ODk3Njc1fQ.ByJxn77hRBbZZJzecUoZ7UTaOwuSBMKsN1CtDGU64PY
+
+
